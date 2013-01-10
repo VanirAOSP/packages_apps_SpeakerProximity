@@ -3,7 +3,7 @@
  * 
  * This is the preference screen that loads the preferences from XML
  */
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.content.ComponentName;
 import android.content.Intent;

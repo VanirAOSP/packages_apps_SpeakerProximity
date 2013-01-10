@@ -3,7 +3,7 @@
  * 
  * This is the bluetooth disconnect broadcast receiver
  */
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.bluetooth.BluetoothClass;
 import android.bluetooth.BluetoothDevice;

@@ -3,7 +3,7 @@
  * 
  * This is the service that starts the magic
  */
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.app.Service;
 import android.content.Context;

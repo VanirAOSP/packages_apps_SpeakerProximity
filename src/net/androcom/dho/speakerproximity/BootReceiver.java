@@ -3,7 +3,7 @@
  * 
  * This is the boot broadcast receiver
  */
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

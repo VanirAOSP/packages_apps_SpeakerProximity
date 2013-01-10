@@ -4,7 +4,7 @@
  * This is the base application class that handles the global stuff
  */
 
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

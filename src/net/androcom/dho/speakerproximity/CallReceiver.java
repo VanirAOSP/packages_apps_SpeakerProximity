@@ -4,7 +4,7 @@
  * This is the call event receiver to start the sensor service
  */
 
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;

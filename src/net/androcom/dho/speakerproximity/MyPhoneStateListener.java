@@ -4,7 +4,7 @@
  * This is the application logic class that handles the actual magic ;-)
  */
 
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.content.Context;
 import android.content.IntentFilter;

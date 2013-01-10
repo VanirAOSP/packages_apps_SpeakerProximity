@@ -32,7 +32,7 @@
  */
 
 
-package net.androcom.dev.speakerproximity.log;
+package net.androcom.dho.speakerproximity.log;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -42,7 +42,7 @@ import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import net.androcom.dev.speakerproximity.R;
+import net.androcom.dho.speakerproximity.R;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -62,14 +62,14 @@ public class SendLogActivity extends Activity
 {
     public final static String TAG = "SpeakerProximityLog";//$NON-NLS-1$
 
-    public static final String ACTION_SEND_LOG = "net.androcom.dev.speakerproximity.log.intent.action.SEND_LOG";//$NON-NLS-1$
-    public static final String EXTRA_SEND_INTENT_ACTION = "net.androcom.dev.speakerproximity.log.intent.extra.SEND_INTENT_ACTION";//$NON-NLS-1$
-    public static final String EXTRA_DATA = "net.androcom.dev.speakerproximity.log.intent.extra.DATA";//$NON-NLS-1$
-    public static final String EXTRA_ADDITIONAL_INFO = "net.androcom.dev.speakerproximity.log.intent.extra.ADDITIONAL_INFO";//$NON-NLS-1$
-    public static final String EXTRA_SHOW_UI = "net.androcom.dev.speakerproximity.log.intent.extra.SHOW_UI";//$NON-NLS-1$
-    public static final String EXTRA_FILTER_SPECS = "net.androcom.dev.speakerproximity.log.intent.extra.FILTER_SPECS";//$NON-NLS-1$
-    public static final String EXTRA_FORMAT = "net.androcom.dev.speakerproximity.log.intent.extra.FORMAT";//$NON-NLS-1$
-    public static final String EXTRA_BUFFER = "net.androcom.dev.speakerproximity.log.intent.extra.BUFFER";//$NON-NLS-1$
+    public static final String ACTION_SEND_LOG = "net.androcom.dho.speakerproximity.log.intent.action.SEND_LOG";//$NON-NLS-1$
+    public static final String EXTRA_SEND_INTENT_ACTION = "net.androcom.dho.speakerproximity.log.intent.extra.SEND_INTENT_ACTION";//$NON-NLS-1$
+    public static final String EXTRA_DATA = "net.androcom.dho.speakerproximity.log.intent.extra.DATA";//$NON-NLS-1$
+    public static final String EXTRA_ADDITIONAL_INFO = "net.androcom.dho.speakerproximity.log.intent.extra.ADDITIONAL_INFO";//$NON-NLS-1$
+    public static final String EXTRA_SHOW_UI = "net.androcom.dho.speakerproximity.log.intent.extra.SHOW_UI";//$NON-NLS-1$
+    public static final String EXTRA_FILTER_SPECS = "net.androcom.dho.speakerproximity.log.intent.extra.FILTER_SPECS";//$NON-NLS-1$
+    public static final String EXTRA_FORMAT = "net.androcom.dho.speakerproximity.log.intent.extra.FORMAT";//$NON-NLS-1$
+    public static final String EXTRA_BUFFER = "net.androcom.dho.speakerproximity.log.intent.extra.BUFFER";//$NON-NLS-1$
    
     final int MAX_LOG_MESSAGE_LENGTH = 100000;
    

@@ -40,7 +40,7 @@
         <activity android:label="@string/app_name"
             android:name=".log.SendLogActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar">
             <intent-filter>
-                <action android:name="net.androcom.dev.speakerproximity.log.intent.action.SEND_LOG"/>
+                <action android:name="net.androcom.dho.speakerproximity.log.intent.action.SEND_LOG"/>
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
         </activity>

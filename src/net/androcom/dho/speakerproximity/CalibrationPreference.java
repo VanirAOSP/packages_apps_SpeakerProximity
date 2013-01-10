@@ -1,4 +1,4 @@
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.content.Context;
 import android.graphics.Typeface;

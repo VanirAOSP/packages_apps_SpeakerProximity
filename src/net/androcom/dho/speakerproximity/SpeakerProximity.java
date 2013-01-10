@@ -4,9 +4,9 @@
  * This is the base GUI class that handles the settings stuff
  */
 
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
-import net.androcom.dev.speakerproximity.log.SendLogActivity;
+import net.androcom.dho.speakerproximity.log.SendLogActivity;
 import android.app.ActivityGroup;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -34,7 +34,7 @@ public class SpeakerProximity extends ActivityGroup {
 
 	private final String	paypalDonateUrl	= "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SJDNMZ5JLZRSU&lc=CH&item_name=rac&item_number=SpeakerProximity&currency_code=CHF&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted";
 //	private final String marketDonateUrl = "market://search?q=pub:rac";
-	private final String	marketDonateUrl	= "market://search?q=net.androcom.dev.speakerproximity";
+	private final String	marketDonateUrl	= "market://search?q=net.androcom.dho.speakerproximity";
 	private final String	androcomUrl		= "http://www.androcom.net";
 
 	/** Called when the activity is first created. */

@@ -1,4 +1,4 @@
-package net.androcom.dev.speakerproximity;
+package net.androcom.dho.speakerproximity;
 
 import android.app.Activity;
 import android.content.Context;

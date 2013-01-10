@@ -9,16 +9,16 @@
     <string name="menu_about">Über</string>
     <string name="menu_send_logcat">Sende logcat</string>
     <string name="about_version">SpeakerProximity Version %s</string>
-    <string name="about_text1">Programmiert von Michel Racic</string>
-    <string name="about_text2">Unterstützt von androcom.net</string>
+    <string name="about_text1">Originally written by Michel Racic</string>
+    <string name="about_text2">Revamped by DHO for Team Vanir</string>
     <string name="about_text3">Icon design von  jkbhso3 von XDA</string>
-<string name="settings_header">Aktiviere Lautsprecher Funktion</string>
+    <string name="settings_header">Aktiviere Lautsprecher Funktion</string>
     <string name="error_no_proximity_sensor">Kein Umgebungs-sensor gefunden, diese Applikation wird dir nicht von nutzen sein</string>
-<string name="conferenceCall_desc">Deaktiviert SpeakerProximity wenn das Gerät flach mit dem Display auf dem Tisch liegt</string>
+    <string name="conferenceCall_desc">Deaktiviert SpeakerProximity wenn das Gerät flach mit dem Display auf dem Tisch liegt</string>
     <string name="conferenceCall">Konferenz Modus</string>
-<string name="about_translated">Deutsche übersetzung von rac2030</string>
-<string name="app_name">SpeakerProximity</string>
-<string name="calibration_uncovered">Frei = [%s]</string>
+    <string name="about_translated">Deutsche übersetzung von rac2030</string>
+    <string name="app_name">SpeakerProximity</string>
+    <string name="calibration_uncovered">Frei = [%s]</string>
     <string name="calibration_init">Initialisierung = [%s]</string>
     <string name="calibration_covered">Bedeckt = [%s]</string>
     <string name="calibration_header">Sensor Kalibrierung</string>
@@ -27,10 +27,7 @@
     
     
     <string name="calibration_do_show_covered">Bedeckter Wert ist %s</string>
-<string name="calibration_do_toggle">Bitte den Sensor %s mal bedecken und wieder frei legen</string>
-<string name="donate_paypal">Über PayPal Spenden</string>
-    <string name="donate_market">Über den Market Spenden</string>
-    <string name="androcom_logo">Androcom Logo</string>
-<string name="handle_screen_off_desc">Deaktiviere diese Einstellung wenn du das Problem hast, dass der proximity Sensor nach einem Anruf einfach weiterläuft.</string>
+    <string name="calibration_do_toggle">Bitte den Sensor %s mal bedecken und wieder frei legen</string>
+    <string name="handle_screen_off_desc">Deaktiviere diese Einstellung wenn du das Problem hast, dass der proximity Sensor nach einem Anruf einfach weiterläuft.</string>
     <string name="handle_screen_off">Display Ein/Aus übernehmen</string>
 </resources>

@@ -11,9 +11,9 @@
     <string name="menu_send_logcat">Send logcat</string>
     <string name="menu_about">About</string>
 
-    <string name="about_text3">Icon design by  jkbhso3 from XDA</string>
-    <string name="about_text2">Revamped by DHO for Team Vanir</string>
     <string name="about_text1">Originally written by Michel Racic</string>
+    <string name="about_text2">Revamped by DHO for Team Vanir</string>
+    <string name="about_text3">Icon design by  jkbhso3 from XDA</string>
     <string name="about_version">SpeakerProximity version %s</string>
 
     <string name="settings_header">Activate Speaker function</string>

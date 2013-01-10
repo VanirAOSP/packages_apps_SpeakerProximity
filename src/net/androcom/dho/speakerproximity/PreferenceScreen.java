@@ -50,5 +50,4 @@ public class PreferenceScreen extends PreferenceActivity {
 		SPApp.log("activity result: requestCode=" + requestCode
 				+ " resultCode=" + resultCode);
 	}
-
 }

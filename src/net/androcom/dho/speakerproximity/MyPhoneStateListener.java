@@ -142,7 +142,6 @@ public class MyPhoneStateListener extends PhoneStateListener {
 				}
 			}
 		});
-
 	}
 
 	@Override
@@ -264,7 +263,6 @@ public class MyPhoneStateListener extends PhoneStateListener {
 						public void onAccuracyChanged(Sensor sensor,
 								int accuracy) {
 							// we don't need to do something here
-
 						}
 
 						@Override

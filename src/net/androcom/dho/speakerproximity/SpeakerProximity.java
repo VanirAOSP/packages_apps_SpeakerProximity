@@ -32,10 +32,6 @@ import android.widget.TextView;
 
 public class SpeakerProximity extends ActivityGroup {
 
-	private final String	paypalDonateUrl	= "https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=SJDNMZ5JLZRSU&lc=CH&item_name=rac&item_number=SpeakerProximity&currency_code=CHF&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted";
-//	private final String marketDonateUrl = "market://search?q=pub:rac";
-	private final String	marketDonateUrl	= "market://search?q=net.androcom.dho.speakerproximity";
-	private final String	androcomUrl		= "http://www.androcom.net";
 
 	/** Called when the activity is first created. */
 	/*
@@ -52,51 +48,8 @@ public class SpeakerProximity extends ActivityGroup {
 		 **/
 		setContentView(R.layout.main);
 
-		/** find the androcom logo view **/
-		final ImageView androcom = (ImageView) findViewById(R.id.androcom);
-		/** find the paypal donate view **/
-		final Button paypal = (Button) findViewById(R.id.donatePaypal);
-		/** find the market donate view **/
-		final Button market = (Button) findViewById(R.id.donateMarket);
-
 		/** get the layout object **/
 		final LinearLayout mainLayout = (LinearLayout) findViewById(R.id.mainlayout);
-
-		/** create an intent that can be fired if the androcom logo gets pressed **/
-		final Intent androcomIntent = new Intent("android.intent.action.VIEW",
-				Uri.parse(androcomUrl));
-		/**
-		 * create an intent that can be fired if the paypal donate button gets
-		 * pressed
-		 **/
-		final Intent paypalIntent = new Intent("android.intent.action.VIEW",
-				Uri.parse(paypalDonateUrl));
-		/**
-		 * create an intent that can be fired if the market donate button gets
-		 * pressed
-		 **/
-		final Intent marketIntent = new Intent("android.intent.action.VIEW",
-				Uri.parse(marketDonateUrl));
-
-		/**
-		 * create an onClick listener for the logo and buttons that fires the
-		 * intent
-		 **/
-		androcom.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View view) {
-				startActivity(androcomIntent);
-			}
-		});
-		paypal.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View view) {
-				startActivity(paypalIntent);
-			}
-		});
-		market.setOnClickListener(new View.OnClickListener() {
-			public void onClick(View view) {
-				startActivity(marketIntent);
-			}
-		});
 
 		/** get the sensor service reference from the system **/
 		final SensorManager sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
@@ -122,7 +75,6 @@ public class SpeakerProximity extends ActivityGroup {
 			mainLayout.addView(getViewFromIntent("preferences", new Intent(
 					this, PreferenceScreen.class)));
 		}
-
 	}
 
 	public View getViewFromIntent(String tag, Intent intent) {

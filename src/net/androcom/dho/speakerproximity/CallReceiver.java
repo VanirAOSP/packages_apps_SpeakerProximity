@@ -24,7 +24,5 @@ public class CallReceiver extends BroadcastReceiver {
 
 		/** Start the service that handles the InCall logic **/
 		context.startService(new Intent(context, SensorService.class));
-
 	}
-
 }

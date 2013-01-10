@@ -1,4 +1,3 @@
-
 /*
  * Copyright (C) 2008 The Android Open Source Project
  *
@@ -413,4 +412,3 @@ public class SendLogActivity extends Activity
         }
     }
 }
-

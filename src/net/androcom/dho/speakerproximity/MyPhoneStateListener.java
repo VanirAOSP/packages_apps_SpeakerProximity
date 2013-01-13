@@ -199,17 +199,17 @@ public class MyPhoneStateListener extends PhoneStateListener {
 				/**
 				 * handling headset changes, taken from
 				 * http://proximitytoolextension.googlecode.com
+				 * modified from original 1/13/12
 				 **/
 				if (app.getHeadSetPlugReceiver() != null) {
 					ctx.unregisterReceiver(app.getHeadSetPlugReceiver());
+					app.getHeadSetPlugReceiver = null;
 				}
 				if (app.getBluetoothConnectReceiver() != null) {
 					ctx.unregisterReceiver(app.getBluetoothConnectReceiver());
 				}
 				if (app.getBluetoothDisconnectReceiver() != null) {
-					ctx
-							.unregisterReceiver(app
-									.getBluetoothDisconnectReceiver());
+					ctx.unregisterReceiver(app.getBluetoothDisconnectReceiver());
 				}
 
 				/** stop myself as I'm not in duty anymore **/
@@ -246,11 +246,7 @@ public class MyPhoneStateListener extends PhoneStateListener {
 				 **/
 				if (prefs.getBoolean("headset", true)) {
 					app.setHeadSetPlugReceiver(new HeadSetPlugReceiver());
-					ctx
-							.registerReceiver(
-									app.getHeadSetPlugReceiver(),
-									new IntentFilter(
-											android.content.Intent.ACTION_HEADSET_PLUG));
+					ctx.registerReceiver(app.getHeadSetPlugReceiver(),new IntentFilter(android.content.Intent.ACTION_HEADSET_PLUG));
 				}
 
 				/**

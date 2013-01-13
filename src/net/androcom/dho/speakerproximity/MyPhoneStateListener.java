@@ -203,7 +203,6 @@ public class MyPhoneStateListener extends PhoneStateListener {
 				 **/
 				if (app.getHeadSetPlugReceiver() != null) {
 					ctx.unregisterReceiver(app.getHeadSetPlugReceiver());
-					app.getHeadSetPlugReceiver = null;
 				}
 				if (app.getBluetoothConnectReceiver() != null) {
 					ctx.unregisterReceiver(app.getBluetoothConnectReceiver());

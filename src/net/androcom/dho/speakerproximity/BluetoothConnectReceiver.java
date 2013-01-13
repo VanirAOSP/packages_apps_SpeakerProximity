@@ -27,7 +27,7 @@ public class BluetoothConnectReceiver extends BroadcastReceiver {
 		final BluetoothDevice btDevice = intent.getExtras().getParcelable(
 				BluetoothDevice.EXTRA_DEVICE);
 		if(btDevice != null) {
-			final BluetoothClass btClass = btDevice.getBluetoothClass(); 
+			final BluetoothClass btClass = btDevice.getBluetoothClass();
 			if (btClass != null) {
 				final int btDevClass = btClass.getDeviceClass();
 				if ((btDevClass & remoteAudioClass) != 0) {

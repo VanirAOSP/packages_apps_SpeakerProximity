@@ -26,7 +26,7 @@ public class BluetoothDisconnectReceiver extends BroadcastReceiver {
 		}
 		final BluetoothDevice btDevice = intent.getExtras().getParcelable(
 				BluetoothDevice.EXTRA_DEVICE);
-		if(btDevice = null) {
+		if(btDevice == null) {
 			final BluetoothClass btClass = btDevice.getBluetoothClass();
 		final int btDevClass = btDevice.getBluetoothClass().getDeviceClass();
 		if ((btDevClass & remoteAudioClass) != 0) {
